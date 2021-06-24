@@ -56,8 +56,10 @@ a {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    width: 0;
     background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
 }
 
 #hero .cta {
@@ -79,3 +81,17 @@ a {
     background-color: crimson;
 }
 /* End Of Hero Section */
+
+/* Keyframes */
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+/* End Of Keyframes */
