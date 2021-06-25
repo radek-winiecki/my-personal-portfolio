@@ -983,6 +983,13 @@ p {
     .button-link {
         font-size: 25px;
     }
+
+    #contact .contact-item {
+        width: 70%;
+        height: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 768px) {
