@@ -356,6 +356,8 @@ p {
     z-index: -1;
 }
 
+/* End Of About Me Section */
+
 /* Contact Section */
 
 #contact .contact {
@@ -380,6 +382,11 @@ p {
     text-align: center;
     flex-direction: column;
     box-shadow:  0 0 18px #00002c;
+    transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+    box-shadow: 0 0 5px 0 #00002c;
 }
 
 #contact .icon {
@@ -401,8 +408,6 @@ p {
 }
 
 /* End Of Contact Section */
-
-/* End Of About Me Section */
 
 /* Keyframes */
 @keyframes text_reveal_box {
