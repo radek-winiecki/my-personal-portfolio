@@ -414,7 +414,7 @@ p {
     background-color: #929191;
     color: #000;
     opacity: 0.6;
-    animation: button_shakes 2s infinite linear alternate;
+    animation: button_puls 2s infinite linear alternate;
 }
 
 .button-link:hover {
@@ -789,9 +789,9 @@ p {
     }
 }
 
-@keyframes button_shakes {
+@keyframes button_puls {
     0% {
-        background-color: #b3b3b3;
+        background-color: #dedcdc;
         color: #000;
     }
     100% {
