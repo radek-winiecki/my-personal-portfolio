@@ -133,7 +133,7 @@ p {
 }
 
 #header .nav-list ul.active {
-    left: 0%;
+    left: 0;
 }
 
 #header .nav-list ul a {
@@ -178,7 +178,6 @@ p {
 #header .hamburger {
     height: 60px;
     width: 60px;
-    display: inline-block;
     border: 3px solid white;
     border-radius: 50%;
     position: relative;
@@ -792,7 +791,6 @@ p {
 
 #contact .contact-item {
     width: 80%;
-    padding: 20px;
     text-align: center;
     border-radius: 10px;
     padding: 30px;
@@ -811,8 +809,7 @@ p {
 
 #contact .icon {
     width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
 }
 
 #contact .contact-info h1 {
@@ -1127,8 +1124,7 @@ p {
     #contact .contact-item {
         width: 70%;
         height: 50%;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
     }
 
     #header .hamburger {
@@ -1260,9 +1256,8 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin: 0;
+        margin: 50px auto 0 auto;
         box-sizing: border-box;
-        margin-top: 50px;
     }
 }
 
