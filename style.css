@@ -998,6 +998,10 @@ p {
 
 
 @media (min-width: 360px) {
+    .brand h1 {
+        margin-left: 10px;
+    }
+
     #contact .contact-item {
         width: 75%;
     }
