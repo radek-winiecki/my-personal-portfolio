@@ -1011,7 +1011,17 @@ p {
     }
 
     #about .col-right p {
-        margin-right: 20px;
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 411px) {
+    #contact .contact-item {
+        width: 80%;
+    }
+
+    #about .col-right p {
+        margin: 20px auto;
     }
 }
 
