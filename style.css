@@ -354,6 +354,78 @@ p {
     transition: .3s ease box-shadow;
 }
 
+#skills .service-item:nth-child(1) {
+    background-image: url(img/skills/html.png);
+    background-size: 280px;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(2) {
+    background-image: url(img/skills/css.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(3) {
+    background-image: url(img/skills/bootstrap.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(4) {
+    background-image: url(img/skills/js.png);
+    background-size: 290px;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(5) {
+    background-image: url(img/skills/react.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(6) {
+    background-image: url(img/skills/ts.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#skills .service-item:nth-child(7) {
+    background-image: url(img/skills/sass.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#skills .service-item:nth-child(8) {
+    background-image: url(img/skills/java.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(9) {
+    background-image: url(img/skills/springboot.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(10) {
+    background-image: url(img/skills/hibernate.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(11) {
+    background-image: url(img/skills/git.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#skills .service-item:nth-child(12) {
+    background-image: url(img/skills/sql.png);
+    background-size: 315px;
+    background-position: center center;
+}
+
 #skills .service-item:hover {
     box-shadow: 1px 1px 20px 0 rgb(56, 56, 56);
 }
