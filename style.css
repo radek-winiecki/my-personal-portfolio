@@ -215,7 +215,23 @@ p {
 
 /* Projects Section */
 
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
 
+#projects .projects-header h1 {
+    margin-bottom: 50px;
+}
+
+#projects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 /* End Of Projects Section */
 
