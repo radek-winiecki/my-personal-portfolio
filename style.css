@@ -187,7 +187,7 @@ p {
     z-index: 100;
     cursor: pointer;
     transform: scale(.8);
-    margin-right: 10%;
+    right: 30%;
 }
 
 #header .hamburger:after {
@@ -990,13 +990,31 @@ p {
         margin: 0 auto;
         margin-bottom: 20px;
     }
+
+    #header .hamburger {
+        right: 5%;
+    }
+}
+
+
+@media (min-width: 360px) {
+    #contact .contact-item {
+        width: 75%;
+    }
+
+    #header .hamburger {
+        right: 30%;
+    }
+
+    #about .col-right p {
+        margin-right: 20px;
+    }
 }
 
 @media (min-width: 768px) {
     .button-link {
         font-size: 30px;
     }
-
 
     #projects .project-info h1 {
         font-size: 3rem;
