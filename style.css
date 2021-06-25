@@ -144,7 +144,12 @@ p {
     text-transform: uppercase;
     padding: 20px;
     display: block;
-    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s;
+}
+
+#header .nav-list ul a:hover {
+    border-bottom: 1px solid red;
 }
 
 #header .nav-list ul a::after {
