@@ -1,8 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -36,7 +36,7 @@ p {
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.05rem;
 }
 
 .section-title {
@@ -115,8 +115,8 @@ p {
     background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vh;
-    top: 0;
     left: 100%;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,7 +147,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(248, 248, 255, 0.021);
+    color: rgba(240, 248, 255, 0.021);
     font-size: 13rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -164,14 +164,14 @@ p {
 }
 
 #header .hamburger {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 60px;
     width: 60px;
     border: 3px solid white;
     border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 100;
     cursor: pointer;
     transform: scale(0.8);
@@ -242,7 +242,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: black;
     opacity: 0.7;
     z-index: -1;
 }
@@ -285,7 +285,7 @@ p {
     width: 0;
     background-color: crimson;
     animation: text_reveal_box 1s ease;
-    animation-delay: 3s;
+    animation-delay: 0.5s;
 }
 
 #hero h1:nth-child(1) span {
@@ -303,7 +303,6 @@ p {
 /* End Of Hero Section */
 
 /* Services Section */
-
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -326,8 +325,6 @@ p {
 }
 
 #services .service-item {
-    position: relative;
-    overflow: hidden;
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -338,7 +335,9 @@ p {
     background-image: url(img/img-1.png);
     background-size: cover;
     margin: 10px 5%;
+    position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 #services .service-item::after {
@@ -393,7 +392,6 @@ p {
     flex-direction: column;
 }
 
-
 #projects .project-item {
     display: flex;
     align-items: center;
@@ -410,7 +408,7 @@ p {
     flex-basis: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -482,11 +480,11 @@ p {
 #about .col-right h2 {
     font-size: 1.8rem;
     font-weight: 500;
-    letter-spacing: 1.2rem;
+    letter-spacing: 0.2rem;
     margin-bottom: 10px;
 }
 
-#about .col-right h2 p {
+#about .col-right p {
     margin-bottom: 20px;
 }
 
@@ -501,7 +499,6 @@ p {
     height: 100%;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 5px crimson;
     border: 10px solid white;
 }
 
@@ -524,22 +521,23 @@ p {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
 }
 
 #contact .contact-items {
-    width: 400px;
-    /*padding: 20px;*/
+    /* max-width: 400px; */
+    width: 100%;
 }
 
 #contact .contact-item {
     width: 80%;
+    text-align: center;
     border-radius: 10px;
     padding: 30px;
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     flex-direction: column;
     box-shadow: 0 0 18px #00002c;
     transition: 0.3s ease box-shadow;
@@ -614,19 +612,29 @@ p {
 }
 
 #footer p {
-    color: #ffffff;
+    color: white;
     font-size: 1.3rem;
 }
 
 /* End Of Footer Section */
 
 /* Keyframes */
+@keyframes hamburger_puls {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
+
 @keyframes text_reveal_box {
     50% {
         width: 100%;
         left: 0;
     }
-
     100% {
         width: 0;
         left: 100%;
@@ -636,18 +644,6 @@ p {
 @keyframes text_reveal {
     100% {
         color: white;
-    }
-}
-
-@keyframes hamburger_puls {
-    0% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    100% {
-        opacity: 0;
-        transform: scale(1.5);
     }
 }
 
@@ -661,7 +657,6 @@ p {
 /* End Of Keyframes */
 
 /* Media Query For Tablet */
-
 @media only screen and (min-width: 768px) {
     .cta {
         font-size: 2.5rem;
@@ -783,34 +778,33 @@ p {
 /* End Of Media Query For Tablet */
 
 /* Media Query For Desktop */
-
-/* Header Section */
-#header .hamburger {
-    display: none;
-}
-
-#header .nav-list ul {
-    position: initial;
-    display: block;
-    height: auto;
-    width: fit-content;
-    background-color: transparent;
-}
-
-#header .nav-list ul li {
-    display: inline-block;
-}
-
-#header .nav-list ul li a {
-    font-size: 1.8rem;
-}
-
-#header .nav-list ul a::after {
-    display: none;
-}
-
-/* End Of Header Section */
 @media only screen and (min-width: 1200px) {
+    /* Header Section */
+    #header .hamburger {
+        display: none;
+    }
+
+    #header .nav-list ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul li a {
+        font-size: 1.8rem;
+    }
+
+    #header .nav-list ul a::after {
+        display: none;
+    }
+
+    /* End Of Header Section */
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
