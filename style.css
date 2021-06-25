@@ -686,7 +686,7 @@ p {
     border-bottom: 1px solid transparent;
     transition: 0.4s;
     padding-bottom: 12px;
-    animation: myBlog_puls 2s ease infinite alternate;
+    animation: myBlog_puls 1s linear infinite alternate;
 }
 
 #about .col-right a:hover {
