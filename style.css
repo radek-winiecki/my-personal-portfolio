@@ -12,13 +12,13 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #dedede;
-}
-
 a {
     text-decoration: none;
     color: #fff;
+}
+
+body {
+    background-color: #dedede;
 }
 
 .container {
@@ -82,6 +82,7 @@ p {
     font-size: 3rem;
     text-transform: uppercase;
     color: white;
+    /*letter-spacing: 2px;*/
 }
 
 .brand h1 span {
@@ -338,6 +339,8 @@ p {
 
 #skills .service-item {
     flex-basis: 80%;
+    height: 300px;
+    width: 300px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -430,6 +433,7 @@ p {
     box-shadow: 1px 1px 20px 0 rgb(56, 56, 56);
 }
 
+
 #skills .service-item::after {
     content: '';
     position: absolute;
@@ -485,7 +489,7 @@ p {
     border-radius: 5%;
     background-color: #929191;
     color: #000;
-    opacity: 0.6;
+    opacity: 0.8;
     animation: button_puls 2s infinite linear alternate;
 }
 
@@ -529,8 +533,8 @@ p {
 
 #projects .project-info h1 {
     font-size: 4rem;
-    font-weight: 500;
     text-align: center;
+    font-weight: 500;
     padding-bottom: 15px;
 }
 
@@ -577,6 +581,7 @@ p {
 }
 
 /* End Projects section */
+
 /* Projects Bottom section */
 #projects-bottom .projects {
     flex-direction: column;
@@ -682,7 +687,6 @@ p {
 }
 
 /* End Projects Bottom section */
-
 
 /* About Section */
 #about .about {
@@ -960,7 +964,6 @@ p {
     }
 
     /* End Project */
-
     /* Project Bottom */
     #projects-bottom .project-item {
         flex-direction: row;
@@ -1086,6 +1089,7 @@ p {
 
 /* End  Media Query For Desktop */
 
+
 /* Media Queries for different resolutions */
 
 @media (min-width: 320px) {
@@ -1108,7 +1112,6 @@ p {
         right: 5%;
     }
 }
-
 
 @media (min-width: 360px) {
     .brand h1 {
@@ -1241,10 +1244,10 @@ p {
 }
 
 @media (min-width: 1200px) {
-
     .brand h1 {
         margin-left: 5px;
         font-size: 26px;
     }
 }
+
 /* End of Media Queries for different resolutions */
