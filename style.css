@@ -343,8 +343,13 @@ p {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    box-shadow: 1px 1px 30px 0 #000;
+    transition: .3s ease box-shadow;
 }
 
+#services .service-item:hover {
+    box-shadow: 1px 1px 20px 0 rgb(56, 56, 56);
+}
 
 #services .service-item::after {
     content: '';
