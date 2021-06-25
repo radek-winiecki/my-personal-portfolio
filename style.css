@@ -518,17 +518,6 @@ p {
 
 /* Reviews */
 
-h3 {
-    font-size: 44px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 20px;
-}
-
-p10 {
-    color: white;
-    font-size: 13px;
-}
 
 .entries {
     margin-left: auto;
@@ -540,43 +529,59 @@ p10 {
     margin-top: 40px;
 }
 
-#newest {
-    background-color: #222930;
+#reviews .reviews {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -75px;
 }
 
-span {
-    color: red;
+#reviews .col-left {
+    width: 250px;
+    height: 360px;
 }
 
-.entry {
-    background-color: rgb(41, 50, 60);
-    padding: 10px;
-    text-align: justify;
-    margin-top: 40px;
-    border-radius: 5px;
+#reviews .col-right {
+    width: 100%;
 }
 
-.entryimg {
-    display: inline-block;
-    margin-left: 30px;
-    width: 110px;
+#reviews .col-right h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
 }
 
-.entryimg img {
-    width: 90px;
-    height: 90px;
+#reviews .col-right p {
+    margin-bottom: 20px;
 }
 
-.entrytxt {
-    display: inline-block;
-    width: 750px;
-    font-size: 15px;
+#reviews .col-right .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
+#reviews .col-left .reviews-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+
+#reviews .col-left .reviews-img::after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid rgb(41, 50, 60);
+    z-index: -1;
 }
 
 /* End Reviews */
