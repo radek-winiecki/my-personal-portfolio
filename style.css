@@ -536,6 +536,10 @@ p11 {
     border-radius: 10px;
 }
 
+#projects-bottom .project-item:hover {
+    box-shadow: 0 0 20px red;
+}
+
 #projects-bottom .project-info {
     padding: 30px;
     flex-basis: 50%;
@@ -840,10 +844,6 @@ h9 {
         margin: 0;
         width: 100%;
         border-radius: 0;
-    }
-
-    #projects-bottom .project-item:hover {
-        box-shadow: 0 0 20px red;
     }
 
     #projects-bottom .all-projects .project-info {
