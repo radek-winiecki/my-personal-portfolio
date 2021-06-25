@@ -84,6 +84,12 @@ p {
     color: white;
 }
 
+@media (min-width: 320px) {
+    .brand h1 {
+        padding: 10px;
+    }
+}
+
 .brand h1 span {
     color: crimson;
 }
@@ -187,7 +193,7 @@ p {
     z-index: 100;
     cursor: pointer;
     transform: scale(.8);
-    margin-right: 20px;
+    margin-right: 10%;
 }
 
 #header .hamburger:after {
