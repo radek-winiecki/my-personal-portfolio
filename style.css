@@ -167,6 +167,11 @@ p {
     padding: 100px 0;
 }
 
+#services .service-top {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 #services .service-bottom {
     display: flex;
     align-items: center;
@@ -199,7 +204,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
 }
 
@@ -618,3 +623,14 @@ p {
 }
 
 /* End Of Media Query For Tablet */
+
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+}
+
+/* End Of Media Query For Desktop */
