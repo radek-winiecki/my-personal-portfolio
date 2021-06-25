@@ -84,12 +84,6 @@ p {
     color: white;
 }
 
-@media (min-width: 320px) {
-    .brand h1 {
-        padding: 10px;
-    }
-}
-
 .brand h1 span {
     color: crimson;
 }
@@ -978,3 +972,22 @@ p {
 }
 
 /* End  Media Query For Desktop */
+
+/* Media Queries for different resolutions */
+
+@media (min-width: 320px) {
+    .brand h1 {
+        padding: 10px;
+    }
+
+    .button-link {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-link {
+        font-size: 30px;
+    }
+}
+/* End of Media Queries for different resolutions */
