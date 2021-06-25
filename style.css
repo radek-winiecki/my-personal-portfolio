@@ -391,7 +391,7 @@ p {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    box-shadow:  0 0 18px #00002c;
+    box-shadow: 0 0 18px #00002c;
     transition: 0.3s ease box-shadow;
 }
 
@@ -497,3 +497,32 @@ p {
 }
 
 /* End Of Keyframes */
+
+/* Media Query For Tablet */
+
+@media only screen and (min-width: 768px) {
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+
+    h1.section-title {
+        font-size: 6rem;
+    }
+
+    /* Hero Section */
+    #hero h1 {
+        font-size: 7rem;
+    }
+
+    /* End Of Hero Section */
+    /* Services Section */
+    #services .service-bottom .service-item {
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+
+    /* End Of Services Section */
+}
+
+/* End Of Media Query For Tablet */
