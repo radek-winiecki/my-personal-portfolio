@@ -667,6 +667,27 @@ p {
     z-index: -1;
 }
 
+#about .col-right .blogwrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#about .col-right a {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 0;
+    display: inline;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s;
+}
+
 /* End About Section */
 
 
