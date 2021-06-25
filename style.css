@@ -582,7 +582,6 @@ p {
     }
 
     /* End Of About Section */
-
     /* Contact Section */
     #contact .contact {
         flex-direction: column;
@@ -619,11 +618,11 @@ p {
         text-align: left;
         padding-left: 20px;
     }
+
     /* End Of Contact Section */
 }
 
 /* End Of Media Query For Tablet */
-
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
