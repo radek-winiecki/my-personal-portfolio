@@ -577,6 +577,44 @@ p {
     }
 
     /* End Of About Section */
+
+    /* Contact Section */
+    #contact .contact {
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-width: 20vh;
+    }
+
+    #contact .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 20px;
+    }
+
+    #contact .contact-item {
+        margin: 20px;
+        flex-direction: row;
+    }
+
+    #contact .contact-item .icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    #contact .contact-item .icon img {
+        object-fit: contain;
+    }
+
+    #contact .contact-item .contact-info {
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    /* End Of Contact Section */
 }
 
 /* End Of Media Query For Tablet */
