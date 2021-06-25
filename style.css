@@ -531,12 +531,28 @@ p {
 
 #reviews .reviews {
     flex-direction: column-reverse;
+    background-color: #29323c;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 80px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: -75px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 25px;
+}
+p {
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
 }
 
 #reviews .col-left {
@@ -570,7 +586,7 @@ p {
     height: 100%;
     width: 100%;
     position: relative;
-    border: 10px solid white;
+    border: 10px solid #29323c;
 }
 
 #reviews .col-left .reviews-img::after {
