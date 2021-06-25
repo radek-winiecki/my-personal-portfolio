@@ -513,15 +513,85 @@ p {
     z-index: -1;
 }
 
-/* End Of About Me Section */
+/* End About Section */
 
-/* Contact Section */
+
+/* Reviews */
+
+h3 {
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p10 {
+    color: white;
+    font-size: 13px;
+}
+
+.entries {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+}
+
+#newest {
+    background-color: #222930;
+}
+
+span {
+    color: red;
+}
+
+.entry {
+    background-color: rgb(41, 50, 60);
+    padding: 10px;
+    text-align: justify;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.entryimg {
+    display: inline-block;
+    margin-left: 30px;
+    width: 110px;
+}
+
+.entryimg img {
+    width: 90px;
+    height: 90px;
+}
+
+.entrytxt {
+    display: inline-block;
+    width: 750px;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+/* End Reviews */
+
+
+/* contact Section */
+h9 {
+    color: black;
+    font-size: 15px;
+}
 
 #contact .contact {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    width: 90%;
 }
 
 #contact .contact-items {
@@ -587,28 +657,6 @@ p {
     letter-spacing: 0.1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-#footer .social-icon {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-#footer .social-item {
-    height: 50px;
-    width: 50px;
-    margin: 0 5px;
-}
-
-#footer .social-item img {
-    filter: grayscale(1);
-    transition: 0.3s;
-    border-radius: 10px;
-}
-
-#footer .social-item:hover img {
-    background-color: #fff;
-    filter: grayscale(0);
 }
 
 #footer p {
