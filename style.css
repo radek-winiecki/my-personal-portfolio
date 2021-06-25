@@ -52,6 +52,7 @@ p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    text-shadow: 1px 1px #333;
 }
 
 .section-title span {
