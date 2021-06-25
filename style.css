@@ -463,7 +463,7 @@ p {
     margin-top: 10px;
 }
 
-p11 {
+.project-description {
     font-size: 2.2rem;
     padding-top: 10px;
 }
@@ -572,10 +572,6 @@ p11 {
     font-weight: 500;
     margin-top: 10px;
 }
-p11{
-    font-size: 2.2rem;
-    padding-top: 10px;
-}
 
 #projects-bottom .project-info p {
     color: white;
@@ -669,7 +665,7 @@ p11{
 
 
 /* contact Section */
-h9 {
+.info-contact {
     color: black;
     font-size: 15px;
 }
