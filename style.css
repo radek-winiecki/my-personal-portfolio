@@ -677,12 +677,12 @@ h9 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c;
+    box-shadow: 5px 5px 18px 0 #000;
     transition: .3s ease box-shadow;
 }
 
 #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 2px 2px 10px 0 rgb(56, 56, 56);
 }
 
 #contact .icon {
