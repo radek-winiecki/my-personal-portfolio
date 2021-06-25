@@ -369,7 +369,12 @@ p {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
-    opacity: .0;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#services .service-bottom .icon:hover {
+    opacity: 1;
 }
 
 #services .service-item h2 {
