@@ -1,6 +1,6 @@
 A project of a portfolio and blog website. Technologies: HTML, CSS, Bootstrap and JavaScript.
 
-Some screenshots from the store:
+Some screenshots from the project:
 
 1. Home:
 
