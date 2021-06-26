@@ -507,6 +507,10 @@ p {
     flex-direction: column;
 }
 
+#projects .all-projects .fa-arrow-circle-right {
+    margin: 0 10px 0 5px;
+}
+
 #projects .project-item {
     display: flex;
     align-items: center;
