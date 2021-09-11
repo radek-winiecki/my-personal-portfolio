@@ -4,27 +4,27 @@ Some screenshots from the project:
 
 1. Home:
 
-![screenshot](screenshots/ss1.png)
+![screenshot](screenshots/home.png)
 
 2. About Me:
 
-![screenshot](screenshots/ss2.png)
+![screenshot](screenshots/about.png)
 
 3. Experience and Education:
 
-![screenshot](screenshots/ss3.png)
+![screenshot](screenshots/experience.png)
 
 4. Technologies:
 
-![screenshot](screenshots/ss4.png)
+![screenshot](screenshots/skills.png)
 
 5. Projects:
 
-![screenshot](screenshots/ss5.png)
+![screenshot](screenshots/projects.png)
 
 6. Contact:
 
-![screenshot](screenshots/ss6.png)
+![screenshot](screenshots/contact%20and%20footer.png)
 
 7. Blog Website:
 
