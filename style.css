@@ -48,7 +48,7 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
@@ -837,6 +837,7 @@ p {
 }
 
 #footer .footer {
+    margin-top: 50px;
     min-height: 200px;
     flex-direction: column;
     padding-top: 50px;
@@ -877,6 +878,8 @@ p {
 #footer p {
     color: #ffffff;
     font-size: 2rem;
+    text-align: center;
+    margin: 0 15px;
 }
 
 /* End Footer */
@@ -1161,6 +1164,16 @@ p {
 
     #about .col-right p {
         margin: 20px auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-description {
+        font-size: 2rem;
+    }
+
+    #projects .project-info h1 {
+        font-size: 3rem;
     }
 }
 
