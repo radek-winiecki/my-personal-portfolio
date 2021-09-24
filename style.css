@@ -346,7 +346,6 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(img/picture6.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -1168,6 +1167,10 @@ p {
 }
 
 @media (max-width: 400px) {
+    #skills .service-item {
+        flex-basis: 74%;
+    }
+
     .project-description {
         font-size: 2rem;
     }
