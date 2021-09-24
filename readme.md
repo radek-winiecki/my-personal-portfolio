@@ -1,10 +1,10 @@
-A project of a portfolio and blog website. Technologies: HTML, CSS, Bootstrap and JavaScript.
+A project of a portfolio and blog website. Technologies: HTML, CSS and JavaScript.
 
 Some screenshots from the project:
 
 1. Home:
 
-![screenshot](screenshots/home.png)
+![screenshot](screenshots/hello.png)
 
 2. About Me:
 
@@ -22,30 +22,26 @@ Some screenshots from the project:
 
 ![screenshot](screenshots/projects.png)
 
-6. Contact:
+6. Contact and Footer:
 
-![screenshot](screenshots/contact%20and%20footer.png)
+![screenshot](screenshots/contact.png)
 
 7. Blog Website:
 
-![screenshot](screenshots/ss7.png)
+![screenshot](screenshots/blog.png)
 
-8. Slider:
+8. Slider and Footer:
 
-![screenshot](screenshots/ss8.png)
+![screenshot](screenshots/slider.png)
 
-9. Post:
+9. Article:
 
-![screenshot](screenshots/ss9.png)
+![screenshot](screenshots/article.png)
 
-10. Previous/Next Post:
+10. Prev/Next Post and Comments:
 
-![screenshot](screenshots/ss10.png)
+![screenshot](screenshots/comments.png)
 
-11. Comments:
+11. Leave Comment:
 
-![screenshot](screenshots/ss11.png)
-
-12. Leave Comment:
-
-![screenshot](screenshots/ss12.png)
+![screenshot](screenshots/leave.png)
