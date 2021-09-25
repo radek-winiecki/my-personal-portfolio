@@ -1128,7 +1128,7 @@ p {
     }
 
     #contact .contact-item {
-        width: 70%;
+        width: 90%;
         height: 50%;
         margin: 0 auto 20px auto;
     }
@@ -1143,10 +1143,6 @@ p {
         margin-left: 10px;
     }
 
-    #contact .contact-item {
-        width: 75%;
-    }
-
     #header .hamburger {
         right: 30%;
     }
@@ -1157,16 +1153,16 @@ p {
 }
 
 @media (min-width: 411px) {
-    #contact .contact-item {
-        width: 80%;
-    }
-
     #about .col-right p {
         margin: 20px auto;
     }
 }
 
 @media (max-width: 400px) {
+    #contact .contact-items {
+        width: 300px;
+    }
+
     #skills .service-item {
         flex-basis: 74%;
     }

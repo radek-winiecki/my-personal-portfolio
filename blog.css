@@ -460,3 +460,13 @@ div ul li {
         margin-top: 6em;
     }
 }
+
+@media (max-width: 400px) {
+    .nav-brand {
+        font-size: 25px;
+    }
+
+    #footer {
+        /*text-align: center;*/
+    }
+}
