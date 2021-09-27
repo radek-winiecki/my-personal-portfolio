@@ -4,7 +4,7 @@ Some screenshots from the project:
 
 1. Home:
 
-![screenshot](screenshots/hello.png)
+![screenshot](screenshots/home.png)
 
 2. About Me:
 
