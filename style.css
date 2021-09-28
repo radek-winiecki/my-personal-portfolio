@@ -322,7 +322,7 @@ p {
 #skills .services {
     flex-direction: column;
     text-align: center;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -357,65 +357,66 @@ p {
     overflow: hidden;
     box-shadow: 1px 1px 30px 0 #000;
     transition: .3s ease box-shadow;
+    background-repeat: no-repeat;
 }
 
 #skills .service-item:nth-child(1) {
-    background-image: url(img/skills/html.png);
-    background-size: 280px;
+    background-image: url(img/skills/html.jpg);
+    background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(2) {
-    background-image: url(img/skills/css.png);
+    background-image: url(img/skills/css.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(3) {
-    background-image: url(img/skills/bootstrap.png);
+    background-image: url(img/skills/javascript.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(4) {
-    background-image: url(img/skills/js.png);
-    background-size: 290px;
+    background-image: url(img/skills/react.jpg);
+    background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(5) {
-    background-image: url(img/skills/react.png);
+    background-image: url(img/skills/bootstrap.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(6) {
-    background-image: url(img/skills/ts.png);
-    background-size: cover;
-    background-position: top center;
-}
-
-#skills .service-item:nth-child(7) {
-    background-image: url(img/skills/sass.jpg);
-    background-size: cover;
-    background-position: top center;
-}
-
-#skills .service-item:nth-child(8) {
-    background-image: url(img/skills/java.png);
+    background-image: url(img/skills/typescript.jpg);
     background-size: cover;
     background-position: center center;
 }
 
+#skills .service-item:nth-child(7) {
+    background-image: url(img/skills/jquery.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#skills .service-item:nth-child(8) {
+    background-image: url(img/skills/sass.jpg);
+    background-size: 450px;
+    background-position: center center;
+}
+
 #skills .service-item:nth-child(9) {
-    background-image: url(img/skills/springboot.png);
+    background-image: url(img/skills/java.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 #skills .service-item:nth-child(10) {
-    background-image: url(img/skills/hibernate.png);
-    background-size: cover;
+    background-image: url(img/skills/spring.jpg);
+    background-size: 400px;
     background-position: center center;
 }
 
@@ -426,8 +427,8 @@ p {
 }
 
 #skills .service-item:nth-child(12) {
-    background-image: url(img/skills/sql.png);
-    background-size: 315px;
+    background-image: url(img/skills/sql.jpg);
+    background-size: cover;
     background-position: center center;
 }
 
@@ -446,6 +447,7 @@ p {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: 0.25;
     z-index: -1;
+    background-color: #fff;
 }
 
 #skills .service-bottom .icon {
