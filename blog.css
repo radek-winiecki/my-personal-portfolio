@@ -48,7 +48,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1420px;
     padding: 0 15px;
     margin: auto;
 }
@@ -191,6 +191,7 @@ a {
 /* ------- Navigation Menu ---------- */
 .navbar {
     position: relative;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
