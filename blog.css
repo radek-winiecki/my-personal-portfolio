@@ -122,6 +122,13 @@ a {
 
 .mt-2 {
     margin-top: 10px;
+    transition: 0.2s;
+}
+
+.mt-2:hover {
+    background-color: var(--primary-color);
+    color: var(--light);
+    cursor: pointer;
 }
 
 .mt-3 {
