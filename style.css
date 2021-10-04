@@ -1159,6 +1159,21 @@ p {
     #header .hamburger {
         right: 5%;
     }
+
+    #footer .social-item {
+        width: 40px;
+        height: 40px;
+        margin: 0 8px;
+    }
+
+    #footer .location.brand h1 {
+        font-size: 4rem;
+    }
+
+    .location_container {
+        width: 90%;
+        height: 90%;
+    }
 }
 
 @media (min-width: 360px) {
@@ -1172,6 +1187,12 @@ p {
 
     #about .col-right p {
         margin: 15px auto;
+    }
+
+    #footer .social-item {
+        height: 50px;
+        width: 50px;
+        margin: 0 8px;
     }
 }
 
