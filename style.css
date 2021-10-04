@@ -835,6 +835,24 @@ p {
 
 /*End contact Section */
 
+/* Location Section */
+
+.location_container {
+    width: 80%;
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 35px 0 0;
+}
+
+#footer .location.brand h1 {
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+/* End Of Location Section */
+
 /* Footer */
 
 #footer {
@@ -842,10 +860,9 @@ p {
 }
 
 #footer .footer {
-    margin-top: 50px;
     min-height: 200px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
