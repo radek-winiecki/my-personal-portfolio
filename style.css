@@ -553,6 +553,10 @@ p {
     margin-top: 10px;
 }
 
+#projects .project-info i {
+    font-size: 10px;
+}
+
 .project-description {
     font-size: 2.3rem;
     padding-top: 10px;
