@@ -4,44 +4,46 @@ Some screenshots from the project:
 
 1. Home:
 
-![screenshot](screenshots/home.png)
+![screenshot](screenshots/HOME.png)
 
 2. About Me:
 
-![screenshot](screenshots/about.png)
+![screenshot](screenshots/ABOUT_ME.png)
 
 3. Experience and Education:
 
-![screenshot](screenshots/experience.png)
+![screenshot](screenshots/EXP_AND_EDU1.png)
+![screenshot](screenshots/EXP_AND_EDU2.png)
 
 4. Technologies:
 
-![screenshot](screenshots/skills.png)
+![screenshot](screenshots/SKILLS.png)
 
 5. Projects:
 
-![screenshot](screenshots/projects.png)
+![screenshot](screenshots/PROJECT1.png)
+![screenshot](screenshots/PROJECT2.png)
 
-6. Contact and Footer:
+6. Contact:
 
-![screenshot](screenshots/contact.png)
+![screenshot](screenshots/CONTACT.png)
 
-7. Blog Website:
+7. Localization and Footer:
 
-![screenshot](screenshots/blog.png)
+![screenshot](screenshots/LOCALIZATION.png)
 
-8. Slider and Footer:
+8. Blog:
 
-![screenshot](screenshots/slider.png)
+![screenshot](screenshots/BLOG.png)
 
-9. Article:
+9. Slider and Footer:
 
-![screenshot](screenshots/article.png)
+![screenshot](screenshots/SLIDER_AND_FOOTER.png)
 
-10. Prev/Next Post and Comments:
+10. Article:
 
-![screenshot](screenshots/comments.png)
+![screenshot](screenshots/POST.png)
 
-11. Leave Comment:
+11. Prev/Next Page and Comments:
 
-![screenshot](screenshots/leave.png)
+![screenshot](screenshots/PREV_NEXT_POST_AND_COMMENTS.png)
