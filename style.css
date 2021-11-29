@@ -201,7 +201,7 @@ p {
     width: 100%;
     border-radius: 50%;
     border: 3px solid white;
-    animation: hamburger_puls 1s ease infinite;
+    animation: hamburger_pulse 1s ease infinite;
 }
 
 #header .hamburger .bar {
@@ -494,7 +494,7 @@ p {
     background-color: #929191;
     color: #000;
     opacity: 0.8;
-    animation: button_puls 2s infinite linear alternate;
+    animation: button_pulse 2s infinite linear alternate;
 }
 
 .button-link:hover {
@@ -544,6 +544,11 @@ p {
     text-align: center;
     font-weight: 500;
     padding-bottom: 15px;
+}
+
+#projects .project-info h1 a {
+    color: #b4223e;
+    animation: myWorkplace_pulse 1.3s linear infinite alternate;
 }
 
 #projects .project-info h2 {
@@ -753,6 +758,7 @@ p {
     width: 98%;
     border: 7px solid crimson;
     z-index: -1;
+    border-radius: 5%;
 }
 
 #about .col-right .blogwrapper {
@@ -774,7 +780,7 @@ p {
     border-bottom: 1px solid transparent;
     transition: 0.4s;
     padding-bottom: 12px;
-    animation: myBlog_puls 1s linear infinite alternate;
+    animation: myBlog_pulse 1s linear infinite alternate;
 }
 
 #about .col-right a:hover {
@@ -911,7 +917,7 @@ p {
 /* End Footer */
 
 /* Keyframes */
-@keyframes hamburger_puls {
+@keyframes hamburger_pulse {
     0% {
         opacity: 1;
         transform: scale(1);
@@ -946,7 +952,7 @@ p {
     }
 }
 
-@keyframes button_puls {
+@keyframes button_pulse {
     0% {
         background-color: #dedcdc;
         color: #000;
@@ -957,12 +963,21 @@ p {
     }
 }
 
-@keyframes myBlog_puls {
+@keyframes myBlog_pulse {
     0% {
         color: rgba(220, 20, 60, 0.6);
     }
     100% {
         color: rgb(220, 20, 60);
+    }
+}
+
+@keyframes myWorkplace_pulse {
+    0% {
+        color: rgba(255, 79, 115, 0.7);
+    }
+    100% {
+        color: rgb(255, 113, 141);
     }
 }
 
