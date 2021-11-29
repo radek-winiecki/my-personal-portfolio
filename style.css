@@ -318,7 +318,7 @@ p {
 
 /* End Hero Section */
 
-/* Quotes Section */
+/* Skills Section */
 #skills .services {
     flex-direction: column;
     text-align: center;
@@ -360,76 +360,12 @@ p {
     background-repeat: no-repeat;
 }
 
-#skills .service-item:nth-child(1) {
-    background-image: url(img/skills/html.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(2) {
-    background-image: url(img/skills/css.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(3) {
-    background-image: url(img/skills/javascript.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(4) {
-    background-image: url(img/skills/react.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(5) {
-    background-image: url(img/skills/bootstrap.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(6) {
-    background-image: url(img/skills/typescript.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(7) {
-    background-image: url(img/skills/jquery.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(8) {
-    background-image: url(img/skills/sass.jpg);
-    background-size: 450px;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(9) {
-    background-image: url(img/skills/java.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(10) {
-    background-image: url(img/skills/spring.jpg);
-    background-size: 400px;
-    background-position: center center;
-}
-
-#skills .service-item:nth-child(11) {
-    background-image: url(img/skills/git.jpg);
-    background-size: cover;
-    background-position: top center;
-}
-
-#skills .service-item:nth-child(12) {
-    background-image: url(img/skills/sql.jpg);
-    background-size: cover;
-    background-position: center center;
+#skills .service-item i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 250px;
+    transform: translate(-50%, -50%);
 }
 
 #skills .service-item:hover {
@@ -474,7 +410,7 @@ p {
     text-align: left;
 }
 
-/* End Quotes Section */
+/* End Skills Section */
 
 /* Projects section */
 #projects .projects {
